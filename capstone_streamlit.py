@@ -87,7 +87,7 @@ if prompt := st.chat_input("Ask an HR policy question..."):
 
         st.markdown(answer)
 
-        # Show sources if available
+    
         if result.get("sources"):
             with st.expander("📚 Sources from HR Handbook"):
                 for src in result["sources"]:
