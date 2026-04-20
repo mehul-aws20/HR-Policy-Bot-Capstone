@@ -1,10 +1,3 @@
-"""
-agent.py — HR Policy Bot Agent Module
-Agentic AI Capstone Project | Dr. Kanthi Kiran Sirra | 2026
-
-This module exports build_app() which returns a compiled LangGraph app
-with MemorySaver for use by the Streamlit UI and the notebook.
-"""
 
 import os
 import re
