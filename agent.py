@@ -17,7 +17,7 @@ FAITHFULNESS_THRESHOLD = 0.7
 MAX_EVAL_RETRIES = 2
 HR_HELPLINE = "040-66778899"
 MODEL_NAME = "llama-3.3-70b-versatile"
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "your_secret_key"
 # ── State ──────────────────────────────────────────────────────────────────────
 class CapstoneState(TypedDict):
     question: str
